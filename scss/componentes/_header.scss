@@ -1,0 +1,14 @@
+.cabezera{
+  background-color: $colorGris;
+  .logo h3{
+    font-size: 2.7rem;
+    color: $backOscuro;
+    span{
+       color: rgb(131, 133, 133);
+    }
+  }
+  a{
+    color: $backOscuro;
+  }
+  
+}

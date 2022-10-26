@@ -1,0 +1,58 @@
+.main_contactanos{
+  background-image: url(/assets/imagen_contactanos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  .formulario {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(27, 27, 27, 0.678);
+        width: 90%;
+        margin: auto;
+        max-width: 400px;
+        border-radius: 1em;
+        padding: 3.5em 1.5em;
+        position: relative;
+        top: 80px;
+        .formulario_container {
+            width: 100%;
+            display: grid;
+            gap: 1em;
+            grid-auto-columns: 100%;
+            .titulo_formulario {
+                font-size: 36px;
+                text-align: center;
+                color: rgb(218, 214, 214);
+              }
+              input {
+                 padding: .8em;
+                }
+                .texto {
+                  resize: none;
+                  padding: 1.8em .5em;margin-bottom: 1.5em;
+                }
+                .envio {
+                   font-size: 1rem;background-color: #089fe0;
+                   color: #fff;
+                   border: none;font-weight: 300;padding: .7em 0;border-radius: .2em;cursor: pointer;
+                  }
+          }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+.imagen_services{
+  background-image: url(/assets/imagen_servicios.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
+  width: 100vw;
+  .precio {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      .tabla {
+          width: 33%;
+          height: 550px;
+          margin: auto;
+          border: 1px solid #343759;
+          border-radius: 4px;
+          box-shadow: 2px 2px 4px 0px #343759;
+          padding: 60px;
+          text-align: center;
+          flex-grow: 1;
+          color: rgb(146, 24, 136);
+          >h2 {
+              font-size: 50px;
+              margin-bottom: 35px;
+            }
+            >h3 {
+          font-size: 40px;
+          margin-bottom: 20px;
+        }
+           a {
+              text-decoration: none;
+            }
+    
+        .boton {
+      display: inline-block;
+      width: 150px;
+      padding: 12px;
+      background: rgb(221, 218, 218);
+      color: #343759;
+      border-radius: 100px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      margin: auto;
+       &:hover{
+        background-color: rgba(36, 35, 35, 0.822);
+        color: $backClaro;
+       }
+    }
+        &:hover {
+          background: rgba(36, 35, 35, 0.822);
+          color: #f1f1f2;
+          transition: 0.5s all;
+          transform: scale(1.07);
+          cursor: pointer;
+        }
+        }
+    }
+  
+   
+  
+    
+  
+   
+  
+    
+  
+  
+  
+   
+  
+    
+  
+    
+  
+    
+}

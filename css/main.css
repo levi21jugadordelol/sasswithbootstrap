@@ -1,0 +1,232 @@
+* {
+  font-family: "roboto";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none !important; }
+
+.cabezera {
+  background-color: #f0e8e8; }
+  .cabezera .logo h3 {
+    font-size: 2.7rem;
+    color: #242222; }
+    .cabezera .logo h3 span {
+      color: #838585; }
+  .cabezera a {
+    color: #242222; }
+
+.footer_pie {
+  margin-top: 50px;
+  background-color: #242222;
+  width: 100vw;
+  height: 450px; }
+  .footer_pie h3 {
+    color: #f0efef;
+    font-size: 4.2rem; }
+    .footer_pie h3 span {
+      color: #f0e8e8; }
+  .footer_pie h4 {
+    color: #f0efef; }
+  .footer_pie nav li a {
+    color: #f0e8e8; }
+  .footer_pie .footer-menu-container {
+    display: flex; }
+    .footer_pie .footer-menu-container li {
+      color: #f0e8e8;
+      list-style: none;
+      margin: 5px;
+      font-size: 18px; }
+  .footer_pie span {
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center; }
+
+.imagen_portada {
+  background-image: url(/assets/portada.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 100vw; }
+  .imagen_portada h3 {
+    font-size: 3rem; }
+  .imagen_portada h1 {
+    font-size: 4.5rem; }
+    .imagen_portada h1 span {
+      color: #838585; }
+  .imagen_portada h4 {
+    color: #f0e8e8; }
+  .imagen_portada a {
+    color: #242222;
+    font-size: 1rem;
+    background-color: #f0e8e8;
+    padding: 10px;
+    border-radius: 60px; }
+
+.container .titulo-container {
+  margin-top: 90px; }
+  .container .titulo-container h2 {
+    font-size: 3.5rem; }
+
+.container .grids .botones .boton {
+  margin: 20px; }
+  .container .grids .botones .boton a {
+    color: #242222;
+    font-size: 1.1rem;
+    background-color: #f0e8e8;
+    padding: 12px;
+    border-radius: 60px; }
+
+.container .grids .grids_imagenes {
+  margin-top: 90px; }
+
+.container .work a {
+  color: #f0e8e8;
+  background-color: #242222;
+  padding: 10px;
+  border-radius: 180px;
+  margin-top: 20px; }
+
+.grids .grids_imagenes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 160px;
+  grid-template-areas: "imagen1 imagen2 imagen3 imagen3" "imagen1 imagen2 imagen3 imagen3" "imagen4 imagen2 imagen5 imagen6" "imagen4 imagen2 imagen5 imagen6";
+  gap: .5em; }
+  .grids .grids_imagenes .imagen1 {
+    grid-area: imagen1; }
+  .grids .grids_imagenes .imagen2 {
+    grid-area: imagen2; }
+  .grids .grids_imagenes .imagen3 {
+    grid-area: imagen3; }
+  .grids .grids_imagenes .imagen4 {
+    grid-area: imagen4; }
+  .grids .grids_imagenes .imagen5 {
+    grid-area: imagen5; }
+  .grids .grids_imagenes .imagen6 {
+    grid-area: imagen6; }
+  .grids .grids_imagenes .imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.main_about {
+  margin-top: 10px;
+  height: 700px; }
+  .main_about .principal_about {
+    background-image: url(/assets/imagen_about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px; }
+    .main_about .principal_about .info_about {
+      background-color: rgba(36, 34, 34, 0.688);
+      margin: 180px;
+      border-radius: 50px; }
+      .main_about .principal_about .info_about h2 {
+        color: #f0efef;
+        font-size: 1.5rem; }
+      .main_about .principal_about .info_about p {
+        color: #f0e8e8;
+        font-size: 1.2rem; }
+
+.main_contactanos {
+  background-image: url(/assets/imagen_contactanos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px; }
+  .main_contactanos .formulario {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(27, 27, 27, 0.678);
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    position: relative;
+    top: 80px; }
+    .main_contactanos .formulario .formulario_container {
+      width: 100%;
+      display: grid;
+      gap: 1em;
+      grid-auto-columns: 100%; }
+      .main_contactanos .formulario .formulario_container .titulo_formulario {
+        font-size: 36px;
+        text-align: center;
+        color: #dad6d6; }
+      .main_contactanos .formulario .formulario_container input {
+        padding: .8em; }
+      .main_contactanos .formulario .formulario_container .texto {
+        resize: none;
+        padding: 1.8em .5em;
+        margin-bottom: 1.5em; }
+      .main_contactanos .formulario .formulario_container .envio {
+        font-size: 1rem;
+        background-color: #089fe0;
+        color: #fff;
+        border: none;
+        font-weight: 300;
+        padding: .7em 0;
+        border-radius: .2em;
+        cursor: pointer; }
+
+.imagen_services {
+  background-image: url(/assets/imagen_servicios.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
+  width: 100vw; }
+  .imagen_services .precio {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .imagen_services .precio .tabla {
+      width: 33%;
+      height: 550px;
+      margin: auto;
+      border: 1px solid #343759;
+      border-radius: 4px;
+      box-shadow: 2px 2px 4px 0px #343759;
+      padding: 60px;
+      text-align: center;
+      flex-grow: 1;
+      color: #921888; }
+      .imagen_services .precio .tabla > h2 {
+        font-size: 50px;
+        margin-bottom: 35px; }
+      .imagen_services .precio .tabla > h3 {
+        font-size: 40px;
+        margin-bottom: 20px; }
+      .imagen_services .precio .tabla a {
+        text-decoration: none; }
+      .imagen_services .precio .tabla .boton {
+        display: inline-block;
+        width: 150px;
+        padding: 12px;
+        background: #dddada;
+        color: #343759;
+        border-radius: 100px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        margin: auto; }
+        .imagen_services .precio .tabla .boton:hover {
+          background-color: rgba(36, 35, 35, 0.822);
+          color: #f0efef; }
+      .imagen_services .precio .tabla:hover {
+        background: rgba(36, 35, 35, 0.822);
+        color: #f1f1f2;
+        transition: 0.5s all;
+        transform: scale(1.07);
+        cursor: pointer; }

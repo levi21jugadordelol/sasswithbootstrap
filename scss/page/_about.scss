@@ -1,0 +1,27 @@
+.main_about{
+  margin-top: 10px;
+  height: 700px;
+ 
+.principal_about {
+  
+    
+    background-image: url(/assets/imagen_about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    .info_about{
+      background-color: rgba(36, 34, 34, 0.688);
+      margin: 180px;
+      border-radius: 50px;
+      h2{
+        color:$backClaro;
+        font-size: 1.5rem;
+      }
+      p{
+        color:$colorGris;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

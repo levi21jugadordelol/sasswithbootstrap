@@ -1,0 +1,40 @@
+.footer_pie{
+  margin-top: 50px;
+  background-color: $backOscuro;
+  width: 100vw;
+  height: 450px;
+  h3{
+    color: $backClaro;
+    font-size: 4.2rem;
+    span{
+      color: $colorGris;
+    }
+  }
+  h4{
+    color: $backClaro;
+  }
+  nav{
+    li{
+      a{
+        color:$colorGris;
+      }
+    }
+  }
+  .footer-menu-container{
+    display: flex;
+    
+    
+    li{
+      color: $colorGris;
+      list-style: none;
+      margin: 5px;
+      font-size: 18px;
+      
+    }
+  }
+  span{
+    color: #f2f2f2;
+      opacity: 0.3;
+      text-align: center;
+  }
+}

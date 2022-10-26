@@ -1,0 +1,109 @@
+
+  
+  .imagen_portada{
+    background-image: url(/assets/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100vw;
+    h3{
+      font-size: 3rem;
+    }
+    h1{
+      font-size: 4.5rem;
+      span{
+        color:rgb(131, 133, 133);
+      }
+    }
+    h4{
+      color: $colorGris;
+    }
+    a{
+      color: $backOscuro;
+      font-size: 1rem;
+      background-color: $colorGris;
+      padding: 10px;
+      border-radius: 60px;
+    }
+    
+  }
+
+  .container{
+   
+    .titulo-container{
+      margin-top: 90px;
+      h2{
+        font-size: 3.5rem;
+      }
+    }
+    .grids{
+      .botones{
+        .boton{
+          margin: 20px;
+          a{
+            color: $backOscuro;
+            font-size: 1.1rem;
+            background-color: $colorGris;
+            padding: 12px;
+            border-radius: 60px;
+          }
+        }
+      }
+      .grids_imagenes{
+        margin-top: 90px;
+      }
+    }
+
+    .work{
+      a {
+        color: $colorGris;
+        background-color: $backOscuro;
+        padding: 10px;
+        border-radius: 180px;
+        margin-top: 20px;
+      }
+    }
+  }
+
+
+.grids{
+  .grids_imagenes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 160px;
+    grid-template-areas:
+    "imagen1 imagen2 imagen3 imagen3"
+    "imagen1 imagen2 imagen3 imagen3"
+    "imagen4 imagen2 imagen5 imagen6"
+    "imagen4 imagen2 imagen5 imagen6"
+    ;
+    gap: .5em;
+    .imagen1{
+      grid-area: imagen1;
+    }
+    .imagen2{
+      grid-area: imagen2;
+    }
+    .imagen3{
+      grid-area: imagen3;
+    }
+    .imagen4{
+      grid-area: imagen4;
+    }
+    .imagen5{
+      grid-area: imagen5;
+    }
+    .imagen6{
+      grid-area: imagen6;
+    }
+    .imagen{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  
+}
+
